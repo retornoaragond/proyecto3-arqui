@@ -4,7 +4,7 @@ import { defuFn } from '/Users/estebanespinoza/Documents/GitHub/proyecto3-arqui/
 
 const inlineConfig = {
   "nuxt": {
-    "buildId": "test"
+    "buildId": "0766b232-d42f-46aa-b9d9-2bc2dcac4595"
   }
 }
 

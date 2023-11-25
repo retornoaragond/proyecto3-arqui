@@ -1,0 +1,1 @@
+import{_ as t}from"./entry.a4367960.js";const e={layout:"default",head:{script:[{src:"https://utteranc.es/client.js",repo:"retornoaragond/proyecto3-arqui","issue-term":"pathname",label:"Comment",theme:"github-dark",crossorigin:"anonymous",body:!0,async:!0}]}};function r(o,n,s,a,c,u){return null}const _=t(e,[["render",r]]);export{_ as default};
