@@ -8,12 +8,12 @@ export default {
   head: {
     script: [
       {
-        src: 'https://utteranc.es/client.js',
-        repo: "arce/arquitectura-comentarios",
-        'issue-term': "pathname",
-        label: "comments",
-        theme: "github-light",
-        crossorigin: "anonymous",
+        src:"https://utteranc.es/client.js",
+        repo:"retornoaragond/proyecto3-arqui",
+        "issue-term":"pathname",
+        label:"Comment",
+        theme:"github-dark",
+        crossorigin:"anonymous",
         body: true,
         async: true
       }

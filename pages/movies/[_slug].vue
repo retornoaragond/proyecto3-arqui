@@ -44,6 +44,7 @@ const sanitizeHtml = (html) => {
           </li>
         </ul>
       </div>
+      <utteranc/>
     </div>
     <FooterView />
   </div>

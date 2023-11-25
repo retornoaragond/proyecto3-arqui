@@ -3,7 +3,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     'FooterView': typeof import("../components/global/FooterView.vue")['default']
     'HeaderView': typeof import("../components/global/HeaderView.vue")['default']
-    'Pagination': typeof import("../components/global/Pagination.vue")['default']
     'Utteranc': typeof import("../components/global/utteranc.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -27,7 +26,6 @@ declare module 'vue' {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyFooterView': typeof import("../components/global/FooterView.vue")['default']
     'LazyHeaderView': typeof import("../components/global/HeaderView.vue")['default']
-    'LazyPagination': typeof import("../components/global/Pagination.vue")['default']
     'LazyUtteranc': typeof import("../components/global/utteranc.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -54,7 +52,6 @@ declare module 'vue' {
 
 export const FooterView: typeof import("../components/global/FooterView.vue")['default']
 export const HeaderView: typeof import("../components/global/HeaderView.vue")['default']
-export const Pagination: typeof import("../components/global/Pagination.vue")['default']
 export const Utteranc: typeof import("../components/global/utteranc.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -78,7 +75,6 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyFooterView: typeof import("../components/global/FooterView.vue")['default']
 export const LazyHeaderView: typeof import("../components/global/HeaderView.vue")['default']
-export const LazyPagination: typeof import("../components/global/Pagination.vue")['default']
 export const LazyUtteranc: typeof import("../components/global/utteranc.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
