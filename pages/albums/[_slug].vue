@@ -1,4 +1,7 @@
 <script setup>
+import UtterancView from '../../components/global/UtterancView.vue';
+
+
 const route = useRoute()
 const { data: album, refresh } =
   await useFetch(`https://cms-una.000webhostapp.com/api/content/item/Albums/${route.params._slug}`)
@@ -43,7 +46,7 @@ const sanitizeHtml = (html) => {
           🛒 Comprame!
         </button>
       </div>
-      <utteranc/>
+      <UtterancView/>
     </div>
     <FooterView />
   </div>

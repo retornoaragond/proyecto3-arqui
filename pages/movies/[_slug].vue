@@ -1,4 +1,5 @@
 <script setup>
+
 const route = useRoute()
 const { data: movie, refresh: rMovie } =
   await useFetch(`https://cms-una.000webhostapp.com/api/content/item/Movies/${route.params._slug}`)
@@ -44,7 +45,7 @@ const sanitizeHtml = (html) => {
           </li>
         </ul>
       </div>
-      <utteranc/>
+      <UtterancView/>
     </div>
     <FooterView />
   </div>
