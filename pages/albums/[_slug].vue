@@ -46,8 +46,8 @@ const sanitizeHtml = (html) => {
           🛒 Comprame!
         </button>
       </div>
-      <UtterancView/>
     </div>
+    <UtterancView />
     <FooterView />
   </div>
 </template>

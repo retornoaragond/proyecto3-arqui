@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     publicApiKey:
       "Njc0MjUwYWEtODU5YS00MDM4LWJkMjEtNmIyMzU1MWE1NmQwNjM4MzU3NjExMDAzMTQwMjYy",
   },
+  components: true,
   app: {
     target: "static",
     head: {
