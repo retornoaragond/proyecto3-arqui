@@ -1,0 +1,18 @@
+{
+  "name": "proyecto3",
+  "version": "1.0.1",
+  "description": "Proyecto 3",
+  "author": "Esteban Espinoza Fallas",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.8.0",
+    "@nuxtjs/snipcart": "latest"
+  }
+}
